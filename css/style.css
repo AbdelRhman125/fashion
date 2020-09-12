@@ -1,0 +1,263 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.fa fa-user{
+	font-size: 40px
+}
+.right-menu li{
+	display: inline-block;
+	margin-top: 30px !important;
+}
+
+.right-menu li .fa{
+	font-size:25px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+nav .navbar-brand {
+    font-size: 33px;
+	border-bottom:2.5px solid #34495E;
+}
+.header{
+	background: #f1f6fc;
+}
+.nav-item{
+	font-size: 21px;
+	padding: 5px;
+}
+.navbar{
+	padding: 0 35px !important;
+}
+.navbar-toggler{
+	border: none !important;
+	outline: none !important;
+	padding: 0 !important;
+	margin-top: 30px;
+}
+.navbar-toggler .fa{
+	cursor: pointer;
+}
+.banner-img{
+	margin: 80px 115px;
+	width: 60%
+}
+.banner-img img{
+	width: 100%;
+	margin-bottom: -80px
+}
+.banner{
+	position: relative;
+}
+.banner-title{
+	position: absolute;
+	left: 53%;
+	top: 20%;
+}
+.banner-title h1{
+	font-size: 43px;
+	background-color: rgba(0 ,0 ,0 ,0.4 );
+	color: white;
+	line-height: 70px;
+	letter-spacing: 5px;
+	padding:0px 7px 0 7px;
+}
+/*shoes-ternds*/
+
+.shoes-ternds{
+	padding: 100px 0;
+}
+.shoes-box{
+	margin:  80px 0;
+}
+.title-style{
+	
+	margin: 0 auto 80px;
+	height: 120px;
+	width: 70%;
+	max-width: 700px;
+	background: #fff;
+	position: relative;
+	box-shadow: 0 4px 5px rgba(0,0,50,.5);
+	letter-spacing: 8px;
+
+}
+.title-style::before{
+	content: '';
+	height: 100px;
+	width:200px;
+	background-color: #34495E;
+	position: absolute;
+	bottom: -10px;
+	right: -10px;
+	z-index: -1
+		
+}
+
+.title-style::after{
+	content: '';
+	height: 100px;
+	width: 200px;
+	background-color: #34495E;
+	position: absolute;
+	top: -10px;
+	left: -10px;
+	z-index: -1	;
+}
+
+.shoes-img{
+	position: relative;
+	margin-bottom: 15px;
+
+}
+.shoes-img img{
+	width: 100%;
+	padding: 20px
+}
+.sho{
+   padding-left: 40px
+}
+.bnt-buy{
+	width: 150px;
+	padding: 10px 0;
+	outline:none !important;
+	border: 0;
+	border-radius: 5px;
+	position: absolute;
+	background: #FFF;
+	left: 50%;
+	bottom: 0;
+	transition: .5s;
+	transform: translate(-50%,0);
+	opacity: 0;
+}
+.shoes-img:hover .bnt-buy{
+	transform: translate(-50%,50%);
+	bottom: 50%;		
+	opacity: 1;
+
+}
+.overlay{
+	height: 0;
+	width: 95%;
+	background: #333;
+	position: absolute;
+	top: 0;
+	opacity: 0;
+}
+.shoes-img:hover .overlay{
+	opacity: .5;
+	height: 97%;
+	transition: .5s;
+
+}
+/*offer*/
+.offer{
+	background: url(../img/98-desktop-wallpapers-hd-4k-%D8%B5%D9%88%D8%B1-%D8%AE%D9%84%D9%81%D9%8A%D8%A7%D8%AA-%D9%83%D9%85%D8%A8%D9%8A%D9%88%D8%AA%D8%B1-%D8%B3%D8%B7%D8%AD-%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8-1024x576.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+
+.subscribe{
+	max-width: 500px;
+	margin-top: 40px;
+	padding: 70px;
+	background: #fff;
+	opacity: 0.5;
+	right: 0;
+	letter-spacing: 1px;
+	height: 350px;
+
+}
+.subscribe a{
+	width: 100px;
+	display: block;
+	color: #fff !important;
+    background: #000;
+	text-decoration: none !important;
+	padding: 5px;
+	text-align: center;
+}
+
+/*fashion-latest*/
+.fashion-latest{
+	margin: 250px 0 150px 0;
+	
+}
+.latest-img{
+	margin-top: 50px;
+	display: inline-block;
+	height: 365px;
+	width: 365px;
+}
+.latest-img img{
+	height: 100%;
+	width: 100%;
+	padding: 30px;
+}
+.fashion-latest h5{
+	margin-top: 20px;
+	font-weight: bold;
+}
+/*Shoes Brands*/
+.Shoes Brands{
+	margin-bottom: 150px;
+}
+.brands-logo{
+	width: 200px;
+	height: 190px;
+	background: #fff;
+    border-radius: 50%;
+	box-shadow: 0 2px 40px 0 rgba(110,113,208,0.18);
+}
+.fashion-brands p{
+	font-family: cursive;
+	font-size: 17px;
+}
+/*footer*/
+.footer{
+	margin-top: 150px;
+	background: rgba(36, 113, 163,0.1);
+	
+}
+.payment,.insta-img {
+       margin-left:60px auto;
+}
+.payment img{
+	cursor: pointer;
+	width: 350px;
+}
+.insta-img img{
+	width: 95px;
+	padding: 5px;
+    cursor: pointer;
+}
+.app-doweload img{
+	width: 250px
+}
+.footer h5{
+	margin-bottom: 50px;
+}
+.footer h5::before{
+	content:'';
+	width: 80px;
+	height: 3px;
+	background:#34495E;
+	top: 30px;
+	position: absolute;
+}
+.footer-icons{
+	text-align: right;
+}
+.footer-icons .fa{
+	margin: 0 10px auto;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+
+
+
+
